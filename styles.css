@@ -1,0 +1,71 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(red,black);
+}
+
+.life{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:red;
+    background-color: black;
+    border: 1px solid rgb(242, 235, 235);
+    }
+
+
+  h2{
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px black;
+  }
+
+
+  footer{
+    text-align: center;
+    color: white;
+  }
+
+  .Calculator{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #result{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    justify-content: center;
+    align-content:center;
+    
+  }
+
+  label{
+    color:white;
+  }
+
+/* Add some basic styling to the button */
+button {
+  padding: 6px 10px;
+  font-size: 15px;
+  background-color: #000000; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Change button color on hover */
+button:hover {
+  background-color:#f80101;
+}
+
+.hourglassimg{
+  display: flex;
+  justify-content: center;
+}
